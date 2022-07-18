@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+<br>
+<br>
+    <button id="fortuneButton">Get a fortune</button>
+
+<p>Below, enter the name of someone for a free inspirational quote that perfectly fits them!</p>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form> 
+<button id="quoteButton">Get a personalized quote!</button>
+
+<br>
+<br>
+
+<p>Sometimes we feel down, pick an emotion you're feeling from the dropdown menu for a specific compliment:</p>
+
+<select name="emotion" id="emotion">
+  <option value="sadness" href="">Sadness</option>
+  <option value="frustration" href="">Frustration</option>
+  <option value="hopelessness" href="">Hopelessness</option>
+</select> 
+
+<input type="submit" id="emotionButton"></input>
+
+  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+
+  </body>
+</html>
